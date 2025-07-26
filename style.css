@@ -116,6 +116,7 @@ h1{
     .pp ul li {
         font-size: larger;
         font-weight: 500;
+        list-style-position: inside;
        
     }
   
@@ -128,6 +129,7 @@ h1{
    }
   .pt ul {
     padding-left: 140px;
+    list-style-position: inside;
   }
 
   .temp {
@@ -155,7 +157,7 @@ h1{
     .vertical-line {
  position: absolute;
   left: 70%; 
-  height: 798px; 
+  height: 785px; 
   width: 2px;
  background-color: black;
  
@@ -164,9 +166,11 @@ h1{
 .small {
 background-color: black;
 left: 35%;
-height: 396px;
+height: 386px;
 width: 1.7px;
 position: absolute;
+display: flex;
+
 }
 
 .circle {
@@ -178,6 +182,50 @@ position: absolute;
     margin: 32px;
    margin-top: 45px;
 }
+
+.ktm {
+    display: flex;
+    justify-content: center;
+    padding-left: 90px;
+   
+   
+}
+
+.tp {
+    display: flex;
+    justify-content: center;
+    margin: -210px;
+    padding-left: 20px;
+}
+
+h5 {
+    font-size: larger;
+}
+
+.tp ul {
+    list-style-position: inside;
+}
+
+
+.first {
+  max-width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h6 {
+    font-size: larger;
+    padding: ;
+}
+
+
+
+
+ 
+
+
+   
 
     
     
